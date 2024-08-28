@@ -1,4 +1,5 @@
 import { AppState } from "../AppState.js"
+import { getFormData } from "../utils/FormHandler.js"
 
 export class HomesController {
   constructor() {
@@ -18,6 +19,11 @@ export class HomesController {
   createHome() {
     event.preventDefault()
     console.log(`creating a home listing`)
+    const form = event.target
+    const cardDataForm = getFormData(form)
+
+    homesService.createCar(cardDataForm)
+
   }
 
 }
