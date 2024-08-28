@@ -10,7 +10,6 @@ export class Home {
     this.location = data.location
     this.price = data.price
     this.squareFootage = data.squareFootage
-    this.bed_bath = data.bed_bath
     this.imgURL = data.imgURL
     this.description = data.description
   }
