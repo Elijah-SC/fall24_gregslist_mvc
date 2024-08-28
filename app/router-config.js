@@ -23,6 +23,6 @@ export const router = new Router([
   {
     path: `#/homes`,
     controllers: [HomesController],
-    view: 'app/views/HomesView'
+    view: 'app/views/HomesView.html'
   }
 ])
