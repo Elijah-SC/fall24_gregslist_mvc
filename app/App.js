@@ -1,5 +1,5 @@
 import { router } from './router-config.js';
-import { HomeController } from './controllers/HomeController.js';
+import { MainController } from './controllers/MainController.js';
 const USE_ROUTER = true
 
 class App {
