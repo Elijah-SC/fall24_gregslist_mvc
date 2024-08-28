@@ -3,27 +3,55 @@
     <h1 class="text-dark text-shadow fw-bold">Homes For Sale</h1>
   </div>
 
-  <sub-section class="row">
-    <form action="">
+  <sub-section class="">
+    <form action="" class="row text-center justify-content-around">
 
       <div class="col-4 form-floating mb-3">
-        <input type="text">
+        <input required type="text" class="form-control" id="location" name="location" placeholder="name@example.com"
+          minlength="3" maxlength="300">
+        <label for="floatingInput">Location</label>
       </div>
       <div class="col-4 form-floating mb-3">
-        <input type="number">
+        <input required type="number" class="form-control" id="price" name="price" placeholder="name@example.com"
+          minlength="0" maxlength="100000000000000">
+        <label for="floatingInput">Price</label>
       </div>
       <div class="col-4 form-floating mb-3">
-        <input type="number">
+        <input required type="number" class="form-control" id="squareFootage" name="squareFootage"
+          placeholder="name@example.com" minlength="1" maxlength="100000000000000">
+        <label for="floatingInput">Square Footage</label>
       </div>
       <div class="col-5 form-floating mb-3">
-        <input type="text">
+        <input required type="url" class="form-control" id="imgURL" name="imgURL" placeholder="name@example.com"
+          minlength="10" maxlength="50000">
+        <label for="floatingInput">Img URL</label>
       </div>
       <div class="col-5 form-floating mb-3">
-        <input type="text">
+        <input required type="text" class="form-control" id="description" name="description"
+          placeholder="name@example.com" minlength="10" maxlength="5000">
+        <label for="floatingInput">Description</label>
       </div>
       <div class="col-12 form-floating mb-3"><Button type="submit" class="btn btn-outline-primary">Submit</Button></div>
 
     </form>
   </sub-section>
+</section>
 
+<section class="container">
+
+  <!-- <sub-section class="row text-center justify-content-around">
+    <div class="col-12 col-lg-6 border-house">
+      <img class="img-fluid"
+        src="https://th.bing.com/th/id/R.2d8e52ce36fa372199292a9e36a91436?rik=lXnO6tYIBBfHVg&pid=ImgRaw&r=0" alt="">
+      <div class="row justify-content-around align-items-center">
+        <h3 class="col-3">$100,000</h3>
+        <h3 class="col-3">50,00sqft</h3>
+        <h3 class="col-3">Located in Idaho</h3>
+      </div>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem harum sapiente qui quia omnis possimus architecto
+        eos et vitae laboriosam, quaerat iste, eius laudantium, nulla ipsa dolores ullam distinctio voluptatem.
+        Odio numquam aperiam autem optio accusamus iure animi ratione quas cumque necessitatibus! Adipisci esse maxime
+        eos optio impedit odit, est sequi provident quaerat deserunt ex excepturi nihil. Enim, unde quidem!</p>
+    </div>
+  </sub-section> -->
 </section>

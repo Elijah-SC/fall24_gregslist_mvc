@@ -13,4 +13,7 @@ export class Home {
     this.imgURL = data.imgURL
     this.description = data.description
   }
+
+
+  get HomeCardTemplate ``
 }
