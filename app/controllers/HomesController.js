@@ -15,4 +15,9 @@ export class HomesController {
 
   }
 
+  createHome() {
+    event.preventDefault()
+    console.log(`creating a home listing`)
+  }
+
 }

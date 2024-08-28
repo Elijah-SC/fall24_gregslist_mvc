@@ -18,18 +18,23 @@ export class Home {
   get HomeCardTemplate() {
 
     return /*HTML*/`
-    <sub-section class="row text-center justify-content-evenly m-3">
-    <div class="col-lg-5 border-house">
-      <img class="img-fluid"
+    <div class="col-lg-5 border-house m-3">
+      <img class="img-fluid home-imgs"
         src="${this.imgURL}" alt="">
       <div class="row justify-content-around align-items-center">
-        <h3 class="col-4">$${this.price}</h3>
-        <h3 class="col-4">${this.squareFootage}sqft</h3>
+        <h3 class="col-4">$${this.priceCommas}</h3>
+        <h3 class="col-4">${this.sqftCommas}sqft</h3>
         <h3 class="col-4">${this.location}</h3>
       </div>
       <p>${this.description}</p>
-    </div>
-  </sub-section>`
+    </div>`
 
+  }
+
+  get priceCommas() {
+    return new Intl.NumberFormat().format(this.price)
+  }
+  get sqftCommas() {
+    return new Intl.NumberFormat().format(this.squareFootage)
   }
 }
