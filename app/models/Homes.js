@@ -17,19 +17,17 @@ export class Home {
 
   get HomeCardTemplate() {
 
-    return `<sub-section class="row text-center justify-content-around">
-    <div class="col-12 col-lg-6 border-house">
+    return /*HTML*/`
+    <sub-section class="row text-center justify-content-evenly m-3">
+    <div class="col-lg-5 border-house">
       <img class="img-fluid"
-        src="https://th.bing.com/th/id/R.2d8e52ce36fa372199292a9e36a91436?rik=lXnO6tYIBBfHVg&pid=ImgRaw&r=0" alt="">
+        src="${this.imgURL}" alt="">
       <div class="row justify-content-around align-items-center">
-        <h3 class="col-3">$100,000</h3>
-        <h3 class="col-3">50,00 sqft</h3>
-        <h3 class="col-3">Located in Idaho</h3>
+        <h3 class="col-4">$${this.price}</h3>
+        <h3 class="col-4">${this.squareFootage}sqft</h3>
+        <h3 class="col-4">${this.location}</h3>
       </div>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem harum sapiente qui quia omnis possimus architecto
-        eos et vitae laboriosam, quaerat iste, eius laudantium, nulla ipsa dolores ullam distinctio voluptatem.
-        Odio numquam aperiam autem optio accusamus iure animi ratione quas cumque necessitatibus! Adipisci esse maxime
-        eos optio impedit odit, est sequi provident quaerat deserunt ex excepturi nihil. Enim, unde quidem!</p>
+      <p>${this.description}</p>
     </div>
   </sub-section>`
 

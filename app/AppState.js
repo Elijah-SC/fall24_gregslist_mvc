@@ -49,28 +49,28 @@ class ObservableAppState extends EventEmitter {
       location: `Salmon Idaho`,
       squareFootage: `10000`,
       price: 5400000,
-      img: `https://images.unsplash.com/photo-1588557132645-ff567110cafd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D`,
+      imgURL: `https://images.unsplash.com/photo-1588557132645-ff567110cafd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D`,
       description: `Mansion in the woods 10 miles away from Salmon along the river`
     }),
     new Home({
       location: `Boise Downtown`,
       squareFootage: `200`,
       price: 100000,
-      img: `https://images.unsplash.com/photo-1693359052825-e5e1c4f852d8?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D`,
+      imgURL: `https://images.unsplash.com/photo-1693359052825-e5e1c4f852d8?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D`,
       description: `luxurious House in downtown boise`
     }),
     new Home({
       location: `Ireland`,
       squareFootage: `500000`,
       price: 800000000,
-      img: `https://images.unsplash.com/photo-1449452198679-05c7fd30f416?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D`,
+      imgURL: `https://images.unsplash.com/photo-1449452198679-05c7fd30f416?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D`,
       description: `Its a Castle what else is there to say`
     }),
     new Home({
       location: `Somewhere in Idaho`,
       squareFootage: `100`,
       price: 2,
-      img: `https://th.bing.com/th/id/R.31782173b699fae37d32acd261b91392?rik=wxTwb%2b2%2fMsvPhw&pid=ImgRaw&r=0`,
+      imgURL: `https://th.bing.com/th/id/R.31782173b699fae37d32acd261b91392?rik=wxTwb%2b2%2fMsvPhw&pid=ImgRaw&r=0`,
       description: `Po-Ta-Tos Bake Em, Mash Em, Put Em in a Stew!! and apparently live in them as well`
     })
   ]
