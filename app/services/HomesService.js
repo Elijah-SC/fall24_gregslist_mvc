@@ -16,7 +16,7 @@ class HomesService {
   }
 
   loadHomes() {
-    const homesLocalStorage = loadState(`homes`, AppState.Homes)
+    const homesLocalStorage = loadState(`homes`, [Home])
     AppState.cars = homesLocalStorage
   }
 

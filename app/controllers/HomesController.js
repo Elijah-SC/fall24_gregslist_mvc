@@ -7,6 +7,7 @@ export class HomesController {
     console.log(`the Homes controller is live`)
     AppState.on(`Homes`, this.drawHomes)
     this.drawHomes()
+
     homesService.loadHomes()
   }
 
