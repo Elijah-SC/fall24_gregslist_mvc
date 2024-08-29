@@ -1,10 +1,17 @@
+import { AppState } from "../AppState.js"
+import { Home } from "../models/Homes.js"
+
 class HomesService {
-  createCar(cardDataForm) {
+  createHome(cardDataForm) {
+    const homes = AppState.Homes
+    const newHome = new Home(cardDataForm)
+    homes.push(newHome)
 
   }
 
 
 
+
 }
 
-const homesService = new HomesService()
+export const homesService = new HomesService()
